@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Artisan Lane
 
-## Getting Started
+**Handmade with heart, delivered with care**
 
-First, run the development server:
+Pakistan’s boutique multi-vendor marketplace for independent artisans — ceramics, textiles, jewelry, woodwork, leather, and more. Platform commission launches at **10%** (rising to 15% after month two).
+
+## Quick start
 
 ```bash
+cd artisan-lane
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Demo accounts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Role   | Email                   |
+|--------|-------------------------|
+| Buyer  | `buyer@artisanlane.pk`  |
+| Seller | `seller@artisanlane.pk` |
+| Admin  | `admin@artisanlane.pk`  |
 
-## Learn More
+Use **Sign in** and pick the matching role. No password required for this launch build (local auth + persisted Zustand stores).
 
-To learn more about Next.js, take a look at the following resources:
+## What’s included
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Homepage with Launch Collection, New Seller Spotlight, featured artisans, trending products, categories, testimonials, newsletter & referral teaser
+- Shop with category / price / location / rating filters and sorting
+- Product & artisan profiles with reviews, wishlist, messaging
+- Cart, multi-step checkout (JazzCash, EasyPaisa, card, COD)
+- Buyer dashboard: orders, wishlist, messages, addresses, referral code
+- Seller dashboard: product CRUD, orders, earnings (Launch Rate 10%), analytics, featured credits
+- Admin: approve sellers, disputes, categories, site analytics
+- About & Contact (`contact.atikanawaz@gmail.com`)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Sample catalog
 
-## Deploy on Vercel
+10 artisans · 24+ handmade products with Pakistan-local pricing (PKR) and backstories.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Next.js (App Router) · React · TypeScript · Tailwind CSS · Zustand (persisted client state)
+
+## Contact
+
+- Email: contact.atikanawaz@gmail.com  
+- Location: Pakistan — nationwide delivery  
+- Social: Instagram / Facebook / LinkedIn (@artisanlane.pk)

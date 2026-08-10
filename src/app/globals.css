@@ -1,26 +1,126 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --brand-50: #f7f1eb;
+  --brand-100: #eadccc;
+  --brand-200: #d4b89a;
+  --brand-500: #8b5a3c;
+  --brand-600: #7a4a32;
+  --brand-700: #6b3f2a;
+  --brand-800: #4f2e1f;
+  --brand-900: #3a2217;
+  --accent-500: #d4a574;
+  --accent-600: #c4935f;
+  --accent-700: #a87845;
+  --cream: #faf6f1;
+  --linen: #f3ebe2;
+  --background: var(--cream);
+  --foreground: #3a2217;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-cream: var(--cream);
+  --color-linen: var(--linen);
+  --color-brand-50: var(--brand-50);
+  --color-brand-100: var(--brand-100);
+  --color-brand-200: var(--brand-200);
+  --color-brand-500: var(--brand-500);
+  --color-brand-600: var(--brand-600);
+  --color-brand-700: var(--brand-700);
+  --color-brand-800: var(--brand-800);
+  --color-brand-900: var(--brand-900);
+  --color-accent-500: var(--accent-500);
+  --color-accent-600: var(--accent-600);
+  --color-accent-700: var(--accent-700);
+  --font-sans: var(--font-dm-sans);
+  --font-serif: var(--font-cormorant);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-dm-sans), system-ui, sans-serif;
+}
+
+.font-serif {
+  font-family: var(--font-cormorant), Georgia, serif;
+}
+
+.texture-warm {
+  background-color: var(--cream);
+  background-image:
+    radial-gradient(ellipse at 20% 0%, rgba(212, 165, 116, 0.18), transparent 50%),
+    radial-gradient(ellipse at 90% 20%, rgba(107, 63, 42, 0.08), transparent 45%),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes soft-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.72;
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.7s ease-out both;
+}
+
+.animate-fade-up-delay {
+  animation: fade-up 0.7s ease-out 0.15s both;
+}
+
+.animate-fade-up-delay-2 {
+  animation: fade-up 0.7s ease-out 0.3s both;
+}
+
+.animate-soft-pulse {
+  animation: soft-pulse 2.8s ease-in-out infinite;
+}
+
+.prose-artisan {
+  line-height: 1.75;
+}
+
+.dashboard-shell {
+  @apply mx-auto max-w-7xl px-4 py-8 lg:px-6;
+}
+
+.dash-card {
+  @apply rounded-2xl border border-brand-100 bg-white p-5 shadow-sm;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-full bg-brand-700 px-5 py-2.5 text-sm font-semibold text-cream transition hover:bg-brand-800 disabled:opacity-50;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center rounded-full border border-brand-700 px-5 py-2.5 text-sm font-semibold text-brand-700 transition hover:bg-brand-50;
+}
+
+.input-field {
+  @apply w-full rounded-xl border border-brand-100 bg-white px-3.5 py-2.5 text-sm outline-none ring-brand-500 focus:ring-2;
+}
+
+.label-field {
+  @apply mb-1.5 block text-sm font-medium text-brand-800;
 }

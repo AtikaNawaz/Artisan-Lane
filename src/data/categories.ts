@@ -1,0 +1,68 @@
+import type { Category } from "@/lib/types";
+
+export const categories: Category[] = [
+  {
+    id: "cat_ceramics",
+    name: "Ceramics & Pottery",
+    slug: "ceramics-pottery",
+    description: "Hand-thrown vessels, tableware, and sculptural clay pieces.",
+    image: "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=800&q=80",
+    productCount: 0,
+  },
+  {
+    id: "cat_textiles",
+    name: "Textiles & Weaving",
+    slug: "textiles-weaving",
+    description: "Handwoven throws, block-printed fabrics, and home textiles.",
+    image: "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?w=800&q=80",
+    productCount: 0,
+  },
+  {
+    id: "cat_jewelry",
+    name: "Jewelry",
+    slug: "jewelry",
+    description: "Artisan earrings, necklaces, and rings made by hand.",
+    image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&q=80",
+    productCount: 0,
+  },
+  {
+    id: "cat_woodwork",
+    name: "Woodwork",
+    slug: "woodwork",
+    description: "Carved décor, utensils, and furniture accents in local woods.",
+    image: "https://images.unsplash.com/photo-1611486212557-44ed5ad1ff2c?w=800&q=80",
+    productCount: 0,
+  },
+  {
+    id: "cat_leather",
+    name: "Leather Goods",
+    slug: "leather-goods",
+    description: "Hand-stitched bags, wallets, and accessories.",
+    image: "https://images.unsplash.com/photo-1590874103328-eac38a674692?w=800&q=80",
+    productCount: 0,
+  },
+  {
+    id: "cat_home",
+    name: "Home Décor",
+    slug: "home-decor",
+    description: "Candles, baskets, metalwork, and finishing touches for living spaces.",
+    image: "https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=800&q=80",
+    productCount: 0,
+  },
+  {
+    id: "cat_art",
+    name: "Art & Calligraphy",
+    slug: "art-calligraphy",
+    description: "Original works on paper, canvas, and hand-lettered pieces.",
+    image: "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=800&q=80",
+    productCount: 0,
+  },
+  {
+    id: "cat_accessories",
+    name: "Personal Accessories",
+    slug: "personal-accessories",
+    description: "Scarves, embroidered pouches, and everyday handmade essentials.",
+    image: "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=800&q=80",
+    productCount: 0,
+  },
+];

@@ -32,7 +32,7 @@ export function Footer() {
         <div className="sm:col-span-2 lg:col-span-1">
           <Logo className="[&_span]:text-cream [&_path]:stroke-cream" />
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-cream/75">
-            Handmade with heart, delivered with care. A Pakistan-first marketplace for
+            Handmade with heart, delivered with care. A Pakistan first marketplace for
             independent artisans with fees that respect their craft.
           </p>
           <div className="mt-4 flex gap-3">

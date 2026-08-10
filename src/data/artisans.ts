@@ -137,7 +137,7 @@ export const artisans: Artisan[] = [
     province: "Punjab",
     bio: "Small-batch candle and soap maker using beeswax, botanical oils, and recycled glass vessels.",
     story:
-      "What started as gifts for friends became Honeywick — a kitchen-table atelier where Zara pours candles scented with citrus peel, jasmine absolute, and cedar. She keeps batches small so every scent notes stays true.",
+      "What started as gifts for friends became Honeywick a kitchen-table atelier where Zara pours candles scented with citrus peel, jasmine absolute, and cedar. She keeps batches small so every scent notes stays true.",
     specialty: "Botanical candles & soap",
     joinedAt: "2026-08-03",
     rating: 4.9,

@@ -26,7 +26,7 @@ export default function HomePage() {
 
   return (
     <div>
-      {/* Hero — brand-first, full-bleed */}
+      {/* Hero  brand-first, full-bleed */}
       <section className="relative min-h-[88vh] overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=1800&q=80"
@@ -46,7 +46,7 @@ export default function HomePage() {
           </h1>
           <p className="animate-fade-up-delay-2 mt-4 max-w-lg text-base text-cream/80 sm:text-lg">
             Discover unique ceramics, textiles, jewelry, and home goods from independent
-            makers across Pakistan — without the high fees of big marketplaces.
+            makers across Pakistan without the high fees of big marketplaces.
           </p>
           <div className="animate-fade-up-delay-2 mt-8 flex flex-wrap gap-3">
             <Link href="/shop" className="btn-primary bg-cream text-brand-800 hover:bg-white">
@@ -67,7 +67,7 @@ export default function HomePage() {
         <div className="mx-auto flex max-w-7xl flex-col gap-6 px-4 py-8 lg:flex-row lg:items-center lg:justify-between lg:px-6">
           <div>
             <p className="animate-soft-pulse text-xs font-bold uppercase tracking-[0.2em] text-accent-700">
-              Limited — {daysLeft} days left
+              Limited  {daysLeft} days left
             </p>
             <h2 className="mt-1 font-serif text-3xl text-brand-800">Launch Collection</h2>
             <p className="mt-2 max-w-xl text-sm text-brand-800/70">
@@ -196,7 +196,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-4 py-16 lg:px-6">
           <h2 className="font-serif text-3xl text-brand-800 md:text-4xl">Shop by category</h2>
           <p className="mt-2 max-w-xl text-brand-800/70">
-            From clay studios to embroidery collectives — find the craft that fits your home.
+            From clay studios to embroidery collectives find the craft that fits your home.
           </p>
           <div className="mt-8 grid grid-cols-2 gap-4 md:grid-cols-4">
             {categories.map((c) => (
@@ -300,7 +300,7 @@ export default function HomePage() {
         <div className="relative mx-auto max-w-7xl px-4 py-16 text-center text-cream lg:px-6">
           <h2 className="font-serif text-3xl md:text-5xl">Join as a seller</h2>
           <p className="mx-auto mt-4 max-w-2xl text-cream/80">
-            List your handmade work for a Launch Rate of 10% — rising to 15% after month two.
+            List your handmade work for a Launch Rate of 10% rising to 15% after month two.
             Refer another seller and earn a featured-listing credit. Every new maker gets a
             turn in our weekly New Seller Spotlight.
           </p>
@@ -331,7 +331,7 @@ export default function HomePage() {
             <h3 className="font-serif text-2xl text-brand-800">Share the lane</h3>
             <p className="mt-2 text-sm text-brand-800/70">
               Buyers get a personal referral discount code. Sellers earn a featured-listing
-              credit for every maker they refer — built-in growth for month one.
+              credit for every maker they refer built-in growth for month one.
             </p>
             <Link href="/account" className="btn-primary mt-5">
               Get your referral code

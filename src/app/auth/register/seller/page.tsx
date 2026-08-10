@@ -115,10 +115,10 @@ export default function RegisterSellerPage() {
             />
           </div>
           <div className="sm:col-span-2">
-            <label className="label-field">Referred by (seller code — optional)</label>
+            <label className="label-field">Referred by (seller code optional)</label>
             <input
               className="input-field"
-              placeholder="e.g. AYESHA2026 — earns them a featured-listing credit"
+              placeholder="e.g. AYESHA2026 earns them a featured-listing credit"
               value={form.referredBy}
               onChange={(e) => setForm({ ...form, referredBy: e.target.value })}
             />

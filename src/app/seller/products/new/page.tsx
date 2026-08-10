@@ -77,7 +77,7 @@ export default function NewProductPage() {
               spendFeaturedCredit(artisanId);
               featured = true;
             } else {
-              // Paid Featured Listing — mark featured and note billing
+              // Paid Featured Listing  mark featured and note billing
               featured = true;
             }
           }
@@ -152,7 +152,7 @@ export default function NewProductPage() {
             onChange={(e) => setFeaturedOptIn(e.target.checked)}
           />
           <span>
-            <strong>Featured Listing</strong> — appear at the top of category pages.
+            <strong>Featured Listing</strong> appear at the top of category pages.
             {credits > 0
               ? ` Uses 1 of your ${credits} referral credit(s).`
               : " Rs. 2,500 / 14 days billed to your seller balance if you have no credits."}

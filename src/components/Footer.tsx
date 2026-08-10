@@ -111,7 +111,7 @@ export function Footer() {
         <div>
           <h3 className="font-serif text-lg">Stay close</h3>
           <p className="mt-3 text-sm text-cream/75">
-            New makers, Launch Collection drops, and referral perks — in your inbox.
+            New makers, Launch Collection drops, and referral perks in your inbox.
           </p>
           <div className="mt-4 [&_input]:border-transparent [&_input]:bg-white/10 [&_input]:text-cream [&_input]:placeholder:text-cream/50 [&_button]:bg-accent-500 [&_button]:text-brand-900">
             <NewsletterForm source="footer" />
@@ -121,7 +121,7 @@ export function Footer() {
               <Mail size={14} /> contact.atikanawaz@gmail.com
             </p>
             <p className="flex items-center gap-2">
-              <MapPin size={14} /> Pakistan — nationwide delivery
+              <MapPin size={14} /> Pakistan nationwide delivery
             </p>
           </div>
         </div>

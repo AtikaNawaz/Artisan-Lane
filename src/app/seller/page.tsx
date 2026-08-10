@@ -85,7 +85,7 @@ export default function SellerDashboardPage() {
 
       <div className="mt-8 rounded-2xl border border-accent-500/40 bg-gradient-to-r from-linen to-white p-5">
         <p className="text-xs font-bold uppercase tracking-wider text-accent-700">
-          Launch Rate — active
+          Launch Rate active
         </p>
         <p className="mt-1 font-serif text-2xl text-brand-800">
           {LAUNCH_COMMISSION_RATE * 100}% commission
@@ -136,7 +136,7 @@ export default function SellerDashboardPage() {
               </li>
             ))}
             {sellerOrders.length === 0 && (
-              <li className="py-2 text-stone-500">No orders yet — list products to get started.</li>
+              <li className="py-2 text-stone-500">No orders yet list products to get started.</li>
             )}
           </ul>
         </div>
@@ -144,10 +144,10 @@ export default function SellerDashboardPage() {
           <h2 className="font-serif text-xl">Growth tips</h2>
           <ul className="mt-3 list-disc space-y-2 pl-5 text-sm text-brand-800/80">
             <li>
-              Share your referral code <strong>{user.referralCode}</strong> — each seller you refer
+              Share your referral code <strong>{user.referralCode}</strong>  each seller you refer
               earns you a featured-listing credit (you have {credits}).
             </li>
-            <li>New Seller Spotlight rotates weekly — keep your bio and photos fresh.</li>
+            <li>New Seller Spotlight rotates weekly  keep your bio and photos fresh.</li>
             <li>Add Launch Collection tags while the 30-day banner is live.</li>
           </ul>
         </div>

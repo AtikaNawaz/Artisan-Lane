@@ -19,7 +19,7 @@ export function NewsletterForm({ source = "footer" }: { source?: string }) {
   if (done) {
     return (
       <p className="flex items-center gap-2 text-sm text-brand-700">
-        <Check size={16} /> You&apos;re on the list — welcome to the lane.
+        <Check size={16} /> You&apos;re on the list welcome to the lane.
       </p>
     );
   }

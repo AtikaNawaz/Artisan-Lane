@@ -236,7 +236,7 @@ export function ProductDetailClient({
             </p>
             {sent ? (
               <p className="mt-3 text-sm font-medium text-brand-700">
-                Message sent — check your inbox in Account → Messages.
+                Message sent check your inbox in Account → Messages.
               </p>
             ) : (
               <form onSubmit={contactSeller} className="mt-3 space-y-3">
@@ -261,7 +261,7 @@ export function ProductDetailClient({
         <h2 className="font-serif text-3xl text-brand-800">Reviews</h2>
         <div className="mt-6 grid gap-4 md:grid-cols-2">
           {reviews.length === 0 && (
-            <p className="text-stone-500">No reviews yet — be the first.</p>
+            <p className="text-stone-500">No reviews yet be the first.</p>
           )}
           {reviews.map((r) => (
             <article key={r.id} className="rounded-2xl bg-white p-5 ring-1 ring-brand-100">

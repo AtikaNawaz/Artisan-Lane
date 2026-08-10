@@ -67,7 +67,7 @@ export default function SellerEarningsPage() {
           Commission model
         </p>
         <p className="mt-2 font-serif text-2xl">
-          Launch Rate — {LAUNCH_COMMISSION_RATE * 100}%
+          Launch Rate  {LAUNCH_COMMISSION_RATE * 100}%
         </p>
         <p className="mt-1 text-sm text-cream/75">
           Increasing to {STANDARD_COMMISSION_RATE * 100}% after month 2. Keep listing now to

@@ -2,7 +2,7 @@
 
 **Handmade with heart, delivered with care**
 
-Pakistan’s boutique multi-vendor marketplace for independent artisans — ceramics, textiles, jewelry, woodwork, leather, and more. Platform commission launches at **10%** (rising to 15% after month two).
+Pakistan’s boutique multi-vendor marketplace for independent artisans ceramics, textiles, jewelry, woodwork, leather, and more. Platform commission launches at **10%** (rising to 15% after month two).
 
 ## Quick start
 
@@ -46,5 +46,5 @@ Next.js (App Router) · React · TypeScript · Tailwind CSS · Zustand (persiste
 ## Contact
 
 - Email: contact.atikanawaz@gmail.com  
-- Location: Pakistan — nationwide delivery  
+- Location: Pakistan nationwide delivery  
 - Social: Instagram / Facebook / LinkedIn (@artisanlane.pk)

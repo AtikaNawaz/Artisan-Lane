@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "The story behind Artisan Lane — a marketplace built so small local artisans can reach customers beyond their neighborhood without high marketplace fees.",
+    "The story behind Artisan Lane a marketplace built so small local artisans can reach customers beyond their neighborhood without high marketplace fees.",
 };
 
 export default function AboutPage() {
@@ -37,13 +37,13 @@ export default function AboutPage() {
         <p className="font-serif text-2xl leading-relaxed text-brand-800">
           Artisan Lane started with a simple frustration: talented craftspeople across
           Pakistan were stuck choosing between neighbourhood bazaars and global platforms
-          that take 15–20% — or more — of every sale.
+          that take 15–20% or more of every sale.
         </p>
         <p className="mt-6 leading-relaxed text-brand-800/80">
           We built a boutique marketplace where local artisans and craftspeople sell
           handmade products directly to customers who care about authenticity. Our launch
           commission is intentionally low at <strong>10% for the first two months</strong>,
-          then moves to a still-fair 15%. That gap is not a gimmick — it is how we help
+          then moves to a still-fair 15%. That gap is not a gimmick it is how we help
           studios list early, earn faster, and grow with us.
         </p>
         <p className="mt-6 leading-relaxed text-brand-800/80">
@@ -56,7 +56,7 @@ export default function AboutPage() {
         <p className="mt-6 leading-relaxed text-brand-800/80">
           We are based in Pakistan with nationwide delivery. Whether you are looking for a
           one-of-a-kind gift or a durable piece for your home, you are shopping a living
-          network of independent makers — not a warehouse of lookalikes.
+          network of independent makers not a warehouse of lookalikes.
         </p>
         <div className="mt-10 flex flex-wrap gap-3">
           <Link href="/shop" className="btn-primary">

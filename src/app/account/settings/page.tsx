@@ -60,7 +60,7 @@ export default function SettingsPage() {
           <p className="font-semibold text-brand-800">Your referral code</p>
           <p className="font-mono text-lg text-brand-700">{user.referralCode}</p>
           <p className="mt-1 text-xs text-stone-500">
-            Share with friends — they can use REFER50 for Rs. 500 off at checkout.
+            Share with friends they can use REFER50 for Rs. 500 off at checkout.
           </p>
         </div>
         <div className="flex gap-3">

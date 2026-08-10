@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const artisan = getArtisanBySlug(slug);
   if (!artisan) return { title: "Artisan not found" };
   return {
-    title: `${artisan.name} — ${artisan.shopName}`,
+    title: `${artisan.name} ${artisan.shopName}`,
     description: artisan.bio,
   };
 }

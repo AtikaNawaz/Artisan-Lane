@@ -39,7 +39,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-brand-100/80 bg-cream/90 backdrop-blur-md">
       <div className="bg-brand-700 px-4 py-2 text-center text-xs text-cream sm:text-sm">
-        Launch Rate for sellers: <strong>10% commission</strong> for the first 2 months —
+        Launch Rate for sellers: <strong>10% commission</strong> for the first 2 months 
         <Link href="/auth/register/seller" className="ml-1 underline underline-offset-2">
           join as a maker
         </Link>

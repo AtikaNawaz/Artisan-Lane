@@ -56,7 +56,7 @@ function OrdersInner() {
       </div>
       {placed && (
         <div className="mt-6 rounded-2xl bg-linen px-4 py-3 text-sm text-brand-800">
-          Order <strong>{placed}</strong> placed successfully. Confirmation sent to your email —
+          Order <strong>{placed}</strong> placed successfully. Confirmation sent to your email
           we&apos;ll notify you at each shipping milestone.
         </div>
       )}
@@ -152,7 +152,7 @@ function OrdersInner() {
                             title: draft.title,
                             comment: draft.comment,
                           });
-                          setReviewMsg(`Thanks — your review of ${item.name} is live.`);
+                          setReviewMsg(`Thanks your review of ${item.name} is live.`);
                           setReviewDraft((d) => {
                             const next = { ...d };
                             delete next[item.productId];

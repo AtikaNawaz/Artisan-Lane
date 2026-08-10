@@ -78,7 +78,7 @@ export default function SellerOrdersPage() {
                     updateStatus(
                       o.id,
                       next,
-                      `Status updated to ${next} — buyer email notification queued`
+                      `Status updated to ${next}  buyer email notification queued`
                     )
                   }
                 >

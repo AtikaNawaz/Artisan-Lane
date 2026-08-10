@@ -37,7 +37,7 @@ export default function ContactPage() {
             <MapPin className="text-brand-700" size={20} />
             <div>
               <h2 className="font-semibold text-brand-800">Coverage</h2>
-              <p className="text-sm text-brand-800/70">Pakistan — nationwide delivery</p>
+              <p className="text-sm text-brand-800/70">Pakistan nationwide delivery</p>
             </div>
           </div>
           <div className="dash-card flex gap-3">
@@ -45,7 +45,7 @@ export default function ContactPage() {
             <div>
               <h2 className="font-semibold text-brand-800">Buyer ↔ seller messaging</h2>
               <p className="text-sm text-brand-800/70">
-                For product questions, use Contact Seller on any product or artisan page —
+                For product questions, use Contact Seller on any product or artisan page
                 it keeps custom-order talks in one thread.
               </p>
             </div>
@@ -56,7 +56,7 @@ export default function ContactPage() {
           <h2 className="font-serif text-2xl text-brand-800">Send a message</h2>
           {sent ? (
             <p className="mt-4 text-brand-700">
-              Thanks — your note is queued. We typically reply within one business day.
+              Thanks your note is queued. We typically reply within one business day.
               (Email integration placeholder.)
             </p>
           ) : (

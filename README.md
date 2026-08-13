@@ -1,369 +1,186 @@
+<div align="center">
+
 # 🧡 Artisan Lane
 
-### Handmade with heart, delivered with care.
+### Handmade with heart, delivered with care
 
-**Artisan Lane** is a modern multi-vendor marketplace designed to connect independent local artisans with customers looking for authentic, handmade products.
+A modern multi-vendor marketplace designed to connect local artisans with customers looking for unique handmade products.
 
-The platform combines a warm boutique aesthetic with a structured marketplace experience, allowing buyers to discover unique products while giving artisans dedicated tools to showcase their work, manage products, track orders, and monitor earnings.
+<br>
 
----
+[![Live Website](https://img.shields.io/badge/🌐_Live_Website-Visit-6B3F2A?style=for-the-badge)](https://artisan-lane.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/AtikaNawaz/Artisan-Lane)
 
-## ✨ Live Demo
+<br>
 
-🌐 **Live Website:** https://artisan-lane.vercel.app/
+![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=next.js)
+![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-State_Management-443E38?style=flat-square)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)
+![Vercel](https://img.shields.io/badge/Vercel-Deployment-000000?style=flat-square&logo=vercel)
 
-📦 **GitHub Repository:** https://github.com/AtikaNawaz/Artisan-Lane
-
----
-
-## 🎯 Project Vision
-
-Large marketplaces often make it difficult for small artisans to stand out.
-
-Artisan Lane was designed around a simpler idea:
-
-> **Give independent makers a place where their products and stories can be discovered.**
-
-The platform focuses on handmade goods, artisan stories, thoughtful product presentation, and a warm shopping experience.
+</div>
 
 ---
 
-## 🚀 Key Features
+# ✨ Overview
 
-### 🛍️ Buyer Experience
+Artisan Lane is a responsive **multi-vendor handmade marketplace** built to help independent artisans showcase and sell their products directly to customers.
 
-* Browse handmade products
-* Product search and filtering
-* Category-based shopping
-* Product sorting
-* Product detail pages
-* Artisan profiles
-* Shopping cart
-* Checkout flow
-* Wishlist / favorites
-* Product reviews and ratings
-* Seller ratings
-* Order tracking
-* Buyer account dashboard
-* Saved addresses
-* Buyer-seller messaging
+The platform provides a warm, boutique-style shopping experience where customers can discover handmade products, explore artisan stories, manage their wishlist and cart, and complete the checkout process.
 
-### 🎨 Artisan Experience
-
-* Dedicated seller dashboard
-* Seller profile
-* Product management
-* Add new products
-* Edit existing products
-* Seller order management
-* Earnings dashboard
-* Commission calculation
-* Sales analytics
-* Seller referral system
-* Featured listing concept
-
-### 🛡️ Admin Experience
-
-* Admin dashboard
-* Seller approval management
-* Category management
-* Dispute management
-* Platform analytics
-* Site-wide sales overview
-
-### 🌱 Marketplace Features
-
-* 10% launch commission rate
-* New Seller Spotlight
-* Launch Collection
-* Newsletter signup
-* Referral system
-* Featured listings
-* Responsive marketplace experience
-* SEO-friendly product pages
+It also includes dedicated **Buyer, Seller, and Admin dashboards** to represent the different sides of a real marketplace platform.
 
 ---
 
-## 🧩 Main Pages
+# 🚀 Live Demo
 
-| Page             | Purpose                                       |
-| ---------------- | --------------------------------------------- |
-| Home             | Marketplace introduction and featured content |
-| Shop             | Browse and filter products                    |
-| Product          | Detailed product information                  |
-| Artisan          | Seller profile and products                   |
-| Cart             | Manage selected products                      |
-| Checkout         | Complete the purchasing flow                  |
-| Account          | Buyer account management                      |
-| Seller Dashboard | Manage products, orders and earnings          |
-| Admin Dashboard  | Manage marketplace operations                 |
-| About            | Story and purpose of Artisan Lane             |
-| Contact          | Customer support and contact information      |
+## 🌐 Artisan Lane
+
+[Visit Artisan Lane](https://artisan-lane.vercel.app/)
+
+## 📂 GitHub Repository
+
+[View Repository](https://github.com/AtikaNawaz/Artisan-Lane)
 
 ---
 
-## 🛠️ Tech Stack
+# ✨ Features
 
-### Frontend
+## 🛍️ Buyer Experience
 
-* **Next.js**
-* **React**
-* **TypeScript**
-* **Tailwind CSS**
-
-### State Management
-
-* **Zustand**
-* Persisted client-side stores
-
-### Development
-
-* **Node.js**
-* **npm**
-* **Git**
-* **GitHub**
-* **VS Code / Cursor**
-
-### Deployment
-
-* **Vercel**
+- User Registration & Login
+- Browse Handmade Products
+- Product Search
+- Category Filtering
+- Price Filtering
+- Product Sorting
+- Product Details
+- Artisan Profiles
+- Shopping Cart
+- Checkout
+- Wishlist
+- Product Reviews & Ratings
+- Seller Ratings
+- Order Tracking
+- Saved Addresses
+- Account Settings
+- Buyer-Seller Messaging
 
 ---
 
-## 🏗️ Architecture
+## 🎨 Seller Dashboard
 
-The application follows a modular Next.js App Router structure.
+- Seller Registration
+- Seller Profile
+- Product Management
+- Add New Products
+- Edit Products
+- Seller Orders
+- Earnings Dashboard
+- Commission Calculation
+- Sales Analytics
+- Seller Referral System
+- Featured Listing Concept
+
+---
+
+## 🔐 Admin Dashboard
+
+- Admin Dashboard
+- Seller Approval
+- Seller Management
+- Category Management
+- Dispute Management
+- Sales Analytics
+- Platform Overview
+
+---
+
+## 🌱 Marketplace Features
+
+- 10% Launch Commission Rate
+- New Seller Spotlight
+- Launch Collection
+- Featured Listings
+- Referral System
+- Newsletter Signup
+- Responsive Design
+- SEO-Friendly Product Pages
+- Artisan Stories
+- Realistic Marketplace Sample Data
+
+---
+
+# 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Next.js | Full-stack React framework |
+| React | User Interface |
+| TypeScript | Type-safe development |
+| Tailwind CSS | Styling & responsive design |
+| Zustand | Client-side state management |
+| JavaScript | Application functionality |
+| Git | Version Control |
+| GitHub | Repository Hosting |
+| Vercel | Deployment |
+
+---
+
+# 📁 Folder Structure
 
 ```text
-src/
-├── app/
-│   ├── about/
-│   ├── account/
-│   ├── admin/
-│   ├── artisan/
-│   ├── auth/
-│   ├── cart/
-│   ├── checkout/
-│   ├── contact/
-│   ├── product/
-│   ├── seller/
-│   └── shop/
+Artisan-Lane
 │
-├── components/
-│   ├── Header
-│   ├── Footer
-│   ├── ProductCard
-│   ├── DashboardNav
-│   ├── StarRating
-│   └── ...
+├── src/
+│   │
+│   ├── app/
+│   │   ├── about/
+│   │   ├── account/
+│   │   ├── admin/
+│   │   ├── artisan/
+│   │   ├── auth/
+│   │   ├── cart/
+│   │   ├── checkout/
+│   │   ├── contact/
+│   │   ├── product/
+│   │   ├── seller/
+│   │   └── shop/
+│   │
+│   ├── components/
+│   │   ├── Header.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Logo.tsx
+│   │   ├── ProductCard.tsx
+│   │   ├── DashboardNav.tsx
+│   │   └── ...
+│   │
+│   ├── data/
+│   │   ├── artisans.ts
+│   │   ├── categories.ts
+│   │   ├── products.ts
+│   │   └── reviews.ts
+│   │
+│   ├── lib/
+│   │   ├── types.ts
+│   │   └── utils.ts
+│   │
+│   └── store/
+│       ├── authStore.ts
+│       ├── cartStore.ts
+│       ├── catalogStore.ts
+│       ├── messageStore.ts
+│       ├── orderStore.ts
+│       ├── platformStore.ts
+│       ├── reviewStore.ts
+│       └── wishlistStore.ts
 │
-├── data/
-│   ├── artisans
-│   ├── categories
-│   ├── products
-│   └── reviews
-│
-├── lib/
-│   ├── types
-│   └── utils
-│
-└── store/
-    ├── authStore
-    ├── cartStore
-    ├── catalogStore
-    ├── messageStore
-    ├── orderStore
-    ├── platformStore
-    ├── reviewStore
-    └── wishlistStore
-```
-
----
-
-## 🎨 Design System
-
-Artisan Lane uses a warm, handcrafted visual identity inspired by boutique artisan markets.
-
-### Brand Colors
-
-| Color            | Hex       |
-| ---------------- | --------- |
-| Terracotta Brown | `#6B3F2A` |
-| Soft Gold / Clay | `#D4A574` |
-
-### Design Direction
-
-* Warm earthy tones
-* Soft shadows
-* Rounded product cards
-* Generous whitespace
-* Serif typography for storytelling
-* Modern sans-serif typography for UI
-* Responsive layouts
-* Boutique-inspired product presentation
-
----
-
-## 💰 Marketplace Commission Model
-
-Artisan Lane uses a launch-focused commission model:
-
-**Launch Rate — 10%**
-
-The platform takes a 10% commission on sales during the initial launch period, with the planned rate increasing to 15% after the first two months.
-
-This model is designed to make the platform attractive to early sellers while establishing a sustainable marketplace business model.
-
----
-
-## 📱 Responsive Experience
-
-The interface is designed to work across:
-
-* 📱 Mobile
-* 📲 Tablet
-* 💻 Desktop
-
-Layouts, navigation, product grids, dashboards, and checkout experiences adapt to different screen sizes.
-
----
-
-## 📊 Sample Marketplace Data
-
-The project includes realistic sample marketplace data so the platform feels populated from the first visit.
-
-The sample content includes:
-
-* Multiple artisan profiles
-* Handmade product listings
-* Product categories
-* Reviews and ratings
-* Artisan stories
-* Product descriptions
-* Pricing
-* Marketplace activity
-
----
-
-## ⚙️ Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/AtikaNawaz/Artisan-Lane.git
-```
-
-### 2. Navigate into the project
-
-```bash
-cd Artisan-Lane
-```
-
-### 3. Install dependencies
-
-```bash
-npm install
-```
-
-### 4. Start the development server
-
-```bash
-npm run dev
-```
-
-The application will be available at:
-
-```text
-http://localhost:3000
-```
-
----
-
-## 🏭 Production Build
-
-To create a production build:
-
-```bash
-npm run build
-```
-
-To run the production version locally:
-
-```bash
-npm start
-```
-
----
-
-## 🚀 Deployment
-
-Artisan Lane is deployed using **Vercel**.
-
-The GitHub repository is connected to Vercel, so updates pushed to the `main` branch automatically trigger a new deployment.
-
-```text
-Local Development
-       ↓
-Git
-       ↓
-GitHub
-       ↓
-Vercel
-       ↓
-Live Website
-```
-
----
-
-## 🔮 Future Improvements
-
-The current project provides the marketplace experience and business-facing interface. Future production development could include:
-
-* Real database integration
-* Secure authentication
-* Backend API
-* Real payment processing
-* JazzCash integration
-* EasyPaisa integration
-* Card payment gateway
-* Real email notifications
-* Production messaging infrastructure
-* Image storage/CDN
-* Advanced seller analytics
-* Automated order processing
-* Production-grade admin permissions
-
----
-
-## 📌 Project Status
-
-**🟢 Live & Deployed**
-
-Artisan Lane is currently available as a working marketplace experience with buyer, seller, and admin interfaces.
-
----
-
-## 👩‍💻 Developer
-
-**Atika Nawaz**
-
-Full Stack Developer • MERN Stack • Canva Designer
-
-Interested in building modern, responsive websites and digital experiences that combine thoughtful design with practical functionality.
-
-### Connect
-
-* LinkedIn: https://www.linkedin.com/in/atika-nawaz-368695334/
-* GitHub: https://github.com/AtikaNawaz
-
----
-
-## 📄 License
-
-This project is created for portfolio and demonstration purposes.
-
----
-
-<p align="center">
-  Made with ❤️ for independent artisans
-</p>
+├── public/
+├── package.json
+├── next.config.ts
+├── tsconfig.json
+└── README.md
